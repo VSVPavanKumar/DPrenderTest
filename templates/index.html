@@ -287,9 +287,46 @@
         .table tbody tr.table-light:nth-child(even) {
             background-color: #f8f9fa; /* Light Gray Background for Even Rows */
         }
+
+        /* Navigation bar styles */
+        .navbar {
+            background-color: #000000; /* Black color */
+        }
+
+        .navbar-brand {
+            color: white; /* White text color */
+        }
+
+        .navbar-nav a {
+            color: white !important; /* White text color */
+        }
     </style>
 </head>
 <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">User Dashboard</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <!-- Left side buttons -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Group 5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <!-- Right side buttons -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="container mt-5">
         <h1 class="mb-4">Crypto Currency Dashboard</h1>
